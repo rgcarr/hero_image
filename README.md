@@ -1,4 +1,4 @@
-This is a customised version of the [Responsive Background Module](https://www.drupal.org/project/responsive_background_image) to render a background image on each page.
+This is a customised version of the [Responsive Background Image Module](https://www.drupal.org/project/responsive_background_image) to render a background image on each page.
 
 This module  provides a method to call from within a preprocess function that will generate CSS media queries for a responsive background image for a specific HTML tag. This will allow you to serve a specific background image file depending on the browser window width, or the device pixel ratio. The provided method will return a style tag array ready to be inserted into the HTML `<head>` using `$variables['#attached']['html_head'][]` from within the preprocess function. It uses Drupal's Responsive Image Styles to generate the media queries and image paths. This module only supports a Media entity of type Image.
 
@@ -83,7 +83,7 @@ Adding a `height` value can help manage how much of the page has the background 
 Additional guidance on the original module at https://www.drupal.org/docs/contributed-modules/responsive-background-image/how-to-use-the-responsive-background-image-module
 
 ## Acknowledgements
-Responsive Background Module authors and maintainers:
+Responsive Background Image Module authors and maintainers:
 * Ben Teegarden (maskedjellybean) https://www.drupal.org/u/maskedjellybean
 * Julian Pustkuchen (Anybody) https://www.drupal.org/u/anybody
 * Thomas Frobieter (thomas.frobieter) https://www.drupal.org/u/thomasfrobieter
