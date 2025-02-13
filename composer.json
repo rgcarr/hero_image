@@ -1,0 +1,7 @@
+{
+    "name": "rgcarr/hero_image",
+    "description": "Provides a method to call programmatically from within a preprocess function, that will generate CSS media queries for a responsive background image for a specific CSS selector.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/rgcarr/hero_image"
+}
